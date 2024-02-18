@@ -27,7 +27,7 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
 *Still under work* 5. Use great_expectations for validation.
 
-**DONE** 6. Document the edge cases, tradeoffs, and assumptions made during an implementation and providing directions to remediate and solve those cases as found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/Edges%2C%20Tradeoffs%2C%20Assumptions.md).
+**DONE** 6. Document the edge cases, tradeoffs, and assumptions made during an implementation and providing directions to remediate and solve those cases as found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/public/Edges%2C%20Tradeoffs%2C%20Assumptions.md).
 
 **DONE** 7. Create a Terraform script to host the solution in the Azure. 
 
