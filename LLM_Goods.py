@@ -218,3 +218,4 @@ print(f"Extracted Min Price: {min_price}")
 #     except Exception as e:
 #         logging.error(f'Error processing query with GPT-4: {e}')
 #         return "I encountered an error processing your request. Please try again."
+
