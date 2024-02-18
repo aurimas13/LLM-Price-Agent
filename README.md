@@ -13,7 +13,7 @@
 
 **Hello and welcome!** 
 
-End-To-End application of an LLM agent that takes the details of the product characteristics and returns a list of suggested products with lowest prices at the top and descriptions. LLM agent that sold the goods using Open AI - ChatGPT - can be inspected through [Simple_LLM_Task](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) or a newer Python module that is still under work Until 21st of February [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods_Final.py)or a newer Jupyter Notebook [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods_Final.ipynb) while `FastAPI`, `Docker` & `Terraform` implementations are built for the [older Python module](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) based on [older Jupyter notebook](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods.ipynb) that is ought to be remade by 21st of February.
+End-To-End application of an LLM agent that takes the details of the product characteristics and returns a list of suggested products with lowest prices at the top and descriptions. LLM agent that sold the goods using Open AI - ChatGPT - can be inspected through [Simple_LLM_Task](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) or a newer Python module that is still under work by 21st of February [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods_Final.py) or a newer Jupyter Notebook [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods_Final.ipynb) while `FastAPI` found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/app/main.py), `Docker`- [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/Dockerfile) & `Terraform` - [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/Terraform-fastapi/main.tf) implementations are built for the [older Python module](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) based on [older Jupyter notebook](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods.ipynb) that is ought to be remade by 21st of February as PostgreSQl database is not yet implemented but under work as found [here](https://github.com/aurimas13/LLM-Price-Agent/tree/main/app).
 
 ### 📊 TODO if not DONE by 21st of Feruary:
 
@@ -27,7 +27,7 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
 *Still under work* 5. Use great_expectations for validation.
 
-**DONE** 6. Document the edge cases, tradeoffs, and assumptions made during an implementation and providing directions to remediate and solve those cases as found [here]().
+**DONE** 6. Document the edge cases, tradeoffs, and assumptions made during an implementation and providing directions to remediate and solve those cases as found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/Edges%2C%20Tradeoffs%2C%20Assumptions.md).
 
 **DONE** 7. Create a Terraform script to host the solution in the Azure. 
 
