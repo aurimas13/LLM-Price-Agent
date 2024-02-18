@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .virtual_documents/
 app/__pycache__/
+app/__init__.py
 notebooks/__pycache__/
 notebooks/.ipynb_checkpoints/
 Simple_LLM_Task.docx
