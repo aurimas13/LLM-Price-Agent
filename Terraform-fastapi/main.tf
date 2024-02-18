@@ -55,3 +55,5 @@ resource "random_string" "dns_safe_label" {
 output "app_url" {
   value = "http://${azurerm_container_group.app.fqdn}/"
 }
+
+
