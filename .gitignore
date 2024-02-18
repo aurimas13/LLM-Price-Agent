@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+app/__pycache__/
+notebooks/__pycache__/
+notebooks/.ipynb_checkpoints/
+Simple_LLM_Task.docx
+~$M_Task.docx
+Trial/
+pgvector/
+terraform-fastapi/.terraform/
