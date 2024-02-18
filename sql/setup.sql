@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS product_vectors (
     description TEXT,
     vector VECTOR(384)
 );
+
