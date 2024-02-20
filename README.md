@@ -20,30 +20,31 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
 1. **Create a Virtual nnvironemnt**
 
+  *To create a virtual environment, run the following command in your project directory:*
+
 `python3 -m venv VENV_NAME`
 
 2. **Activate the Virtual Environment**
 
-*To activate the virtual environment, use one of the following commands, depending on your operating system:*
+  *To activate the virtual environment, use one of the following commands, depending on your operating system:*
 
-- On macOS and Linux:
+  - On macOS and Linux:
 
-```bash
-source VENV_NAME/bin/activate
-```
+  `source VENV_NAME/bin/activate`
 
-- On Windows:
-`.\VENV_NAME\Scripts\activate`
+  - On Windows:
+
+  `.\VENV_NAME\Scripts\activate`
 
 3. **Install the dependencies**
 
-*Ensure you have a* `requirements.txt` *file in your project directory and then install the packages listed in* `requirements.txt` *into your activated virtual environment by running:*
+  *Ensure you have a* `requirements.txt` *file in your project directory and then install the packages listed in* `requirements.txt` *into your activated virtual environment by running:*
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
 4. **Run the application**
 
-*To run the application, you can use one of the following methods:*
+  *To run the application, you can use one of the following methods:*
 
   - **Run the Jupyter Notebook**
 
@@ -67,7 +68,7 @@ source VENV_NAME/bin/activate
 
 5. **Deactivate the Virtual Environment**
 
-*Once you're done working in the virtual environment and want to switch back to the global Python environment, you can deactivate it by simply running:*
+  *Once you're done working in the virtual environment and want to switch back to the global Python environment, you can deactivate it by simply running:*
 
 `deactivate`
 
