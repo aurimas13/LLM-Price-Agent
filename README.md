@@ -36,3 +36,28 @@ End-To-End application of an LLM agent that takes the details of the product cha
 *Still under work* 9. Provide a list of limitations and potential scalability issues for the final implementation and options to overcome them.
 
 *Still under work* 10. Update README.md with the latest information and provide a link to the deployed solution on Azure.
+
+1. Create a Virtual Ebvironemnt
+
+`python3 -m venv venv`
+
+2. Activate the Virtual Environment
+
+- On macOS and Linux:
+
+```bash
+source venv/bin/activate
+```
+
+- On Windows:
+`.\venv\Scripts\activate`
+
+3. Install the dependencies
+
+`pip install -r requirements.txt`
+
+4. Run the application
+
+5. Deactivate the Virtual Environment
+
+`deactivate`
