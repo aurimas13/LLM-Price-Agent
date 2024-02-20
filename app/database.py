@@ -1,9 +1,22 @@
 # app/database.py
 import psycopg2
+import pandas as pd
+import spacy
 from psycopg2.extras import execute_batch
+from sentence_transformers import SentenceTransformer
+
+
+# Load spaCy model
+nlp = spacy.load("en_core_web_sm")
+
+# Database connection parameters
+dbname = 'yourdbname'
+dbuser = 'aurimasnausedas'
+dbhost = 'localhost'
+dbpassword = 'newpassword'
 
 def get_db_connection():
-    return psycopg2.connect(dbname='yourdbname', user='aurimasnausedas', host='localhost', password='newpassword')
+    return psycopg2.connect(dbname=dbname, user=dbuser, host=dbhost, password=dbpassword)
 
 def insert_products(conn, product):
     try:
@@ -54,4 +67,7 @@ def load_data_into_db(products_df):
 
     # Call the function with the path to your CSV   
     load_data_into_db('../data/products.csv')
+
+    print("Data insertion complete.")
+
 
