@@ -15,7 +15,63 @@
 
 End-To-End application of an LLM agent that takes the details of the product characteristics and returns a list of suggested products with lowest prices at the top and descriptions. LLM agent that sold the goods using Open AI - ChatGPT - can be inspected through [Simple LLM Python module](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) or a newer Python module that is still under work by 21st of February [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/modules/LLM_Goods_Final.py) or a newer Jupyter Notebook [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods_Final.ipynb) while `FastAPI` found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/app/main.py), `Docker`- [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/Dockerfile) & `Terraform` - [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/terraform-fastapi/main.tf) implementations are built for the [older Python module](https://github.com/aurimas13/LLM-Price-Agent/blob/main/LLM_Goods.py) based on [older Jupyter notebook](https://github.com/aurimas13/LLM-Price-Agent/blob/main/notebooks/LLM_Goods.ipynb) that is ought to be remade by 21st of February as PostgreSQl database is not yet implemented but under work as found [here](https://github.com/aurimas13/LLM-Price-Agent/blob/main/app/database.py).
 
-### 📊 TODO if not DONE by 21st of Feruary:
+
+# Running the LLM Price Agent Application
+
+1. **Create a Virtual nnvironemnt**
+
+`python3 -m venv VENV_NAME`
+
+2. **Activate the Virtual Environment**
+
+*To activate the virtual environment, use one of the following commands, depending on your operating system:*
+
+- On macOS and Linux:
+
+```bash
+source VENV_NAME/bin/activate
+```
+
+- On Windows:
+`.\VENV_NAME\Scripts\activate`
+
+3. **Install the dependencies**
+
+*Ensure you have a* `requirements.txt` *file in your project directory and then install the packages listed in* `requirements.txt` *into your activated virtual environment by running:*
+
+`pip install -r requirements.txt`
+
+4. **Run the application**
+
+*To run the application, you can use one of the following methods:*
+
+  4.1 **Run the Jupyter Notebook**
+
+  ***TO BE ADDED***
+
+  4.2 **Run the FastAPI application**
+
+  ***TO BE ADDED***
+
+  4.3 **Run the Docker container**
+
+  ***TO BE ADDED***
+
+  4.4 **Run the Terraform script**
+
+  ***TO BE ADDED***
+
+  4.5 **Run the Azure application**
+
+  ***TO BE ADDED***
+
+5. **Deactivate the Virtual Environment**
+
+*Once you're done working in the virtual environment and want to switch back to the global Python environment, you can deactivate it by simply running:*
+
+`deactivate`
+
+## 📊 TODO if not DONE by 21st/22nd of Feruary:
 
 **DONE** 1. Update the description of the solved problem with what is expected.
 
@@ -36,28 +92,3 @@ End-To-End application of an LLM agent that takes the details of the product cha
 *Still under work* 9. Provide a list of limitations and potential scalability issues for the final implementation and options to overcome them.
 
 *Still under work* 10. Update README.md with the latest information and provide a link to the deployed solution on Azure.
-
-1. Create a Virtual Ebvironemnt
-
-`python3 -m venv venv`
-
-2. Activate the Virtual Environment
-
-- On macOS and Linux:
-
-```bash
-source venv/bin/activate
-```
-
-- On Windows:
-`.\venv\Scripts\activate`
-
-3. Install the dependencies
-
-`pip install -r requirements.txt`
-
-4. Run the application
-
-5. Deactivate the Virtual Environment
-
-`deactivate`
