@@ -46,25 +46,25 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
   *To run the application, you can use one of the following methods:*
 
-  - **Run the Jupyter Notebook**
+  - **Run the Jupyter Notebook:**
 
-  ***TO BE ADDED***
+  `***TO BE ADDED***`
 
-  - **Run the FastAPI application**
+  - **Run the FastAPI application:**
 
-  ***TO BE ADDED***
+  `***TO BE ADDED***`
 
-  - **Run the Docker container**
+  - **Run the Docker container:**
 
-  ***TO BE ADDED***
+  `***TO BE ADDED***`
 
-  - **Run the Terraform script**
+  - **Run the Terraform script:**
 
-  ***TO BE ADDED***
+  `***TO BE ADDED***`
 
-  - **Run the Azure application**
+  - **Run the Azure application:**
 
-  ***TO BE ADDED***
+  `***TO BE ADDED***`
 
 5. **Deactivate the Virtual Environment**
 
