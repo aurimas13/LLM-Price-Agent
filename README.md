@@ -45,23 +45,23 @@ source VENV_NAME/bin/activate
 
 *To run the application, you can use one of the following methods:*
 
-  4.1 **Run the Jupyter Notebook**
+  - **Run the Jupyter Notebook**
 
   ***TO BE ADDED***
 
-  4.2 **Run the FastAPI application**
+  - **Run the FastAPI application**
 
   ***TO BE ADDED***
 
-  4.3 **Run the Docker container**
+  - **Run the Docker container**
 
   ***TO BE ADDED***
 
-  4.4 **Run the Terraform script**
+  - **Run the Terraform script**
 
   ***TO BE ADDED***
 
-  4.5 **Run the Azure application**
+  - **Run the Azure application**
 
   ***TO BE ADDED***
 
