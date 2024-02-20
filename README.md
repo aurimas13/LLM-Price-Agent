@@ -18,59 +18,59 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
 # Running the LLM Price Agent Application
 
-1. **Create a Virtual nnvironemnt**
+  1. **Create a Virtual nnvironemnt**
 
   *To create a virtual environment, run the following command in your project directory:*
 
-`python3 -m venv VENV_NAME`
+    `python3 -m venv VENV_NAME`
 
-2. **Activate the Virtual Environment**
+  2. **Activate the Virtual Environment**
 
   *To activate the virtual environment, use one of the following commands, depending on your operating system:*
 
-  - On macOS and Linux:
+    - On macOS and Linux:
 
-  `source VENV_NAME/bin/activate`
+    `source VENV_NAME/bin/activate`
 
-  - On Windows:
+    - On Windows:
 
-  `.\VENV_NAME\Scripts\activate`
+    `.\VENV_NAME\Scripts\activate`
 
-3. **Install the dependencies**
+  3. **Install the dependencies**
 
   *Ensure you have a* `requirements.txt` *file in your project directory and then install the packages listed in* `requirements.txt` *into your activated virtual environment by running:*
 
-  `pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
-4. **Run the application**
+  4. **Run the application**
 
   *To run the application, you can use one of the following methods:*
 
-  - **Run the Jupyter Notebook**
+    - **Run the Jupyter Notebook**
 
-  ***TO BE ADDED***
+      ***TO BE ADDED***
 
-  - **Run the FastAPI application**
+    - **Run the FastAPI application**
 
-  ***TO BE ADDED***
+     ***TO BE ADDED***
 
-  - **Run the Docker container**
+    - **Run the Docker container**
 
-  ***TO BE ADDED***
+      ***TO BE ADDED***
 
-  - **Run the Terraform script**
+    - **Run the Terraform script**
 
-  ***TO BE ADDED***
+      ***TO BE ADDED***
 
-  - **Run the Azure application**
+    - **Run the Azure application**
 
-  ***TO BE ADDED***
+      ***TO BE ADDED***
 
-5. **Deactivate the Virtual Environment**
+  5. **Deactivate the Virtual Environment**
 
-  *Once you're done working in the virtual environment and want to switch back to the global Python environment, you can deactivate it by simply running:*
+    *Once you're done working in the virtual environment and want to switch back to the global Python environment, you can deactivate it by simply running:*
 
-`deactivate`
+    `deactivate`
 
 ## 📊 TODO if not DONE by 21st/22nd of Feruary:
 
