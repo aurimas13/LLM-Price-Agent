@@ -5,7 +5,6 @@ import spacy
 from psycopg2.extras import execute_batch
 from sentence_transformers import SentenceTransformer
 
-
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
 
@@ -65,9 +64,10 @@ def load_data_into_db(products_df):
         insert_products(conn, product)
     conn.close()
 
-    # Call the function with the path to your CSV   
-    load_data_into_db('../data/products.csv')
+# Load your preprocessed data from a CSV file
+products_df = pd.read_csv('../data/cleaned_products.csv')
 
-    print("Data insertion complete.")
+# Load the data into the database
+load_data_into_db(products_df)
 
-
+print("Data insertion complete.")
