@@ -8,6 +8,6 @@ notebooks/__pycache__/
 notebooks/.ipynb_checkpoints/
 Simple_LLM_Task.docx
 ~$M_Task.docx
-Trial/
+trial/
 pgvector/
 terraform-fastapi/.terraform/
