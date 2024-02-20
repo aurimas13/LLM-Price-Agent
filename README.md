@@ -48,23 +48,23 @@ End-To-End application of an LLM agent that takes the details of the product cha
 
   - **Run the Jupyter Notebook:**
 
-  `***TO BE ADDED***`
+  `TO BE ADDED`
 
   - **Run the FastAPI application:**
 
-  `***TO BE ADDED***`
+  `TO BE ADDED`
 
   - **Run the Docker container:**
 
-  `***TO BE ADDED***`
+  `TO BE ADDED`
 
   - **Run the Terraform script:**
 
-  `***TO BE ADDED***`
+  `TO BE ADDED`
 
   - **Run the Azure application:**
 
-  `***TO BE ADDED***`
+  `TO BE ADDED`
 
 5. **Deactivate the Virtual Environment**
 
