@@ -48,9 +48,10 @@ def find_similar_products(conn, query_vector, top_k=5):
         """, (query_vector, top_k))
         return cur.fetchall()
 
-def load_data_into_db(products_df):
+def load_data_into_db(products_df, model):
     conn = get_db_connection()
     for index, row in products_df.iterrows():
+        product_vector = model.encode(row['Processed_Description']).tolist()
         product = {
             "Title": row['Title'],
             "Description": row['Description'],
@@ -63,11 +64,3 @@ def load_data_into_db(products_df):
         }
         insert_products(conn, product)
     conn.close()
-
-# Load your preprocessed data from a CSV file
-products_df = pd.read_csv('../data/cleaned_products.csv')
-
-# Load the data into the database
-load_data_into_db(products_df)
-
-print("Data insertion complete.")
