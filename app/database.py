@@ -21,8 +21,8 @@ def insert_products(conn, product):
     try:
         with conn.cursor() as cur:
             cur.execute("""
-                INSERT INTO products(title, description, vendor, type, tags, price, processed_description, entities)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                INSERT INTO products(title, description, vendor, type, tags, price, cleaned_description, processed_description, entities)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 product["Title"],
                 product["Description"],
@@ -30,6 +30,7 @@ def insert_products(conn, product):
                 product["Type"],
                 product["Tags"],
                 product["Price"],
+                product["Cleaned_Description"],
                 product["Processed_Description"],
                 product["Entities"]
             ))
@@ -41,7 +42,7 @@ def insert_products(conn, product):
 def find_similar_products(conn, query_vector, top_k=5):
     with conn.cursor() as cur:
         cur.execute("""
-            SELECT id, title, description, vendor, type, tags, price
+            SELECT title, vendor, type, tags, price
             FROM products
             ORDER BY vendor <-> %s
             LIMIT %s
@@ -59,6 +60,7 @@ def load_data_into_db(products_df, model):
             "Type": row['Type'],  
             "Tags": ','.join(row['Tags']),  # Join the list of tags into a string
             "Price": row['Price'],
+            "Cleaned_Description": row['Cleaned_Description'],
             "Processed_Description": row['Processed_Description'],
             "Entities": str(row['Entities'])  # Convert the list of entities to a string
         }
