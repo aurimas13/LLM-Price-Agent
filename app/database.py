@@ -64,3 +64,4 @@ def load_data_into_db(products_df, model):
         }
         insert_products(conn, product)
     conn.close()
+
