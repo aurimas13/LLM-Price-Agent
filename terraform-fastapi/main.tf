@@ -41,8 +41,8 @@ resource "azurerm_container_group" "app" {
 
   image_registry_credential {
     server   = "registrasbandymas.azurecr.io"
-    username = "2fc234b2-f5c5-4707-b418-ece298e5e" // replace with your service principal's appId
-    password = "Sil8Q~anOyiQlgiInkJBf-mowz~r0qxLA9dzi" // replace with your service principal's password
+    username = "replace" // replace with your service principal's appId
+    password = "replace" // replace with your service principal's password
   }
 }
 
